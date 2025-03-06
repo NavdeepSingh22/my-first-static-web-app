@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Delight</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+            color: #333;
+        }
+
+        header {
+            background-color: #ff5722;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #333;
+            color: white;
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .hero {
+            background-image: url('https://via.placeholder.com/1200x400');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 100px 20px;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 3em;
+            margin: 0;
+         color: cadetblue;}
+
+        .container {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .menu-item {
+            display: inline-block;
+            margin: 10px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            background-color: white;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            width: 250px;
+        }
+
+        .menu-item img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .menu-item h3 {
+            margin: 10px 0;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Restaurant Delight</h1>
+        <h4 >  Owners -Rohit          Navdeep</h4>
+        
+    </header>
+
+    <nav>
+        <a href="#menu">Menu</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="hero" >
+        <h1 >Delicious Food Awaits!</h1>
+        <p>Experience the taste of perfection</p>
+    </div>
+
+    <div class="container" id="menu">
+        <h2>Our Menu</h2>
+        <div class="menu-item">
+            <img src="chicken.jpeg" alt="Dish 1">
+            <h3>Grilled Chicken</h3>
+            <p>Juicy grilled chicken served with fresh vegetables.</p>
+        </div>
+        <div class="menu-item">
+            <img src="veggie.jpeg" alt="Dish 2">
+            <h3>Veggie Pasta</h3>
+            <p>Delicious pasta with a mix of fresh vegetables.</p>
+        </div>
+        <div class="menu-item">
+            <img src="desert.jpeg" alt="Dish 3">
+            <h3>Chocolate Cake</h3>
+            <p>Rich and moist chocolate cake for dessert lovers.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Restaurant Delight. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
