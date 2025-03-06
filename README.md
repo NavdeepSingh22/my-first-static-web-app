@@ -123,6 +123,9 @@
             <p>Rich and moist chocolate cake for dessert lovers.</p>
         </div>
     </div>
+git add .
+git commit -m "Initial commit with basic static web files"
+git push origin main
 
     <footer>
         <p>&copy; 2025 Restaurant Delight. All Rights Reserved.</p>
